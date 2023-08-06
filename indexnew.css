@@ -111,6 +111,7 @@
    transform: scale(1.15);
    position: relative;
    left: 1vw;
+   cursor: pointer;
 }
 .maincard{
     display: flex;
