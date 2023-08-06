@@ -1,0 +1,216 @@
+.header.two{
+    height: 9vh;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4vh;
+    margin-left: -1vw;
+    margin-right: -1vw;
+    margin-top: -0.69vh;
+    background-color: rgb(181, 255, 70);
+}
+.sports{
+    width: 19vw;
+    border: 1px solid black;
+    margin-left: -0.8vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+.input{
+    display: flex;
+    margin-top: 1.5vh;
+    justify-content: center;
+}
+.input input{
+    height: 4vh;
+    width: 12vw;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat ;
+    background-size: 2.2vh ;
+    background-position: 2vh 0.775vh;
+    text-indent: 1vh;
+    border-radius: 2vh;
+  
+}
+
+.searchicon{
+    height: 2vh;
+    width: 2vh;
+}
+.list{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 1vh;
+}
+.list div{
+    margin-left: 0.8vw;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 2vh;
+   
+}
+
+.basket{
+    width: 80%;
+    border: 0.01vh solid;
+    border-radius: 2vh;
+    border-color: rgb(242, 247, 241);
+    border: none;
+}
+
+#image{
+    height: 3vh;
+    width: 3vh;
+}
+
+.body.eventpage{
+    display: flex;
+    height: 100%;
+}
+.sportinfo{
+    height: fit-content;
+    width: 70%;
+    display: inline-block;
+}
+.sportinfo .sportname{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    font-size: 5rem;
+    font-family: Garamond;
+    font-style: italic;
+}
+/* .cards{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+}
+.cards div{
+    height: 42vh;
+    width: 20vw;
+    border: 1px solid black;
+} */
+.input:hover{
+    transform: scale(1.15);
+}
+
+.basket:hover{
+   transform: scale(1.15);
+   position: relative;
+   left: 1vw;
+}
+.maincard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1 {
+    margin-left: 7vw;
+    width: 25vw;
+    height: 30vw;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card1 .sports {
+    width: 25vw;
+    height:35vh ;
+    border: none;
+   
+    margin-left: .07vw;
+    
+}
+.card1 h1 {
+     
+    background-color: #CFFF69;
+    border: none;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 500;
+    line-height:8px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 2.2rem;
+    margin-top: 0.2vh;
+
+
+}
+
+.card1 .Date{
+    font-weight: 600;
+    margin-left: 2vw;
+  
+   margin-bottom: 2vw;
+   margin-top: 1.1vw;
+}
+
+.card1 h2{
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding: 0.7rem;
+   
+}
+
+.card1 p{
+
+margin-left: 2vw;
+
+
+}
+
+.card1 h3{
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+@media screen and (max-width: 1678px){
+    .cards div{
+        width: 23vw;
+    }
+}
+@media screen and (max-width: 1395px){
+    .sports{
+        width: 25vw;
+    }
+    .cards{
+        flex-flow: column;
+        align-items: center;
+    }
+    .cards div{
+        height: 39vh;
+        margin-top: 2vh;
+        width: 30vw;
+    }
+    .input input{
+        width: 20vw;;
+    }
+}
+@media screen and (max-width: 1065px){
+    .cards div{
+        width:  40vw;
+    }
+}
+@media screen and (max-height: 850px){
+    .cards div{
+       display: none;
+    }
+}
