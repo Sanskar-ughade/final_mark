@@ -1,8 +1,11 @@
 <html>
     <head>
+        <link rel="stylesheet" href="locomotivescroll.css">
+       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet" href="indexnew.css">
     </head>
     <body>
+        <div id="main">
         <div class="header two">
             <div>Competitions</div>
             <div>Pronites</div>
@@ -77,28 +80,71 @@
             <div class="sportinfo">
                 <div class="sportname">BasketBall</div>
                 <div class="maincard">
-                <div class="card1">
+                    <div class="card1">
 
-                    <img src="images/basketball 1.png" alt="Basketball" class="sports">
-                    <h1>Basketball (Men's)</h1>
-                    <p class="Date">3 November 2023</p>
-                    <p>Team sport</p>
-                    <p>Number of Team Member:12</p>
-                    <h2><a href="">Register&rarr;</a></h2>
-                    <h3>Locate<img src="images/locate.png" alt="icon" class="location"></h3>
-                </div>
-                <div class="card1">
-                    <img src="images/basketball 1.png" alt="Basketball" class="sports">
-                    <h1>Basketball (Women's)</h1>
-                    <p class="Date">3 November 2023</p>
-                    <p>Team sport</p>
-                    <p>Number of Team Member:12</p>
-                    <h2><a href="">Register&rarr;</a></h2>
-                <h3>Locate<img src="images/locate.png" alt="icon" class="location"></h3>
-                </div>
+                        <div class="img"><img src="images/basketball 1.png" alt="Basketball" class="sports"></div>
+                        <div class="lowbox">
+                        <div class="sname">
+                            <h1>Basketball (Men's)</h1>
+                        </div>
+                        <div>
+                            <p class="Date">3 November 2023</p>
+                        </div>
+                        <div class="Des1">
+                            <p>Team sport</p>
+                        </div>
+                        <div class="Des2">
+                            <p>Number of Team Member:12</p>
+                        </div>
+                        <div class="las">
+    
+                            <div class="loc">
+                                <h3>Locate<img src="images/locate.png" alt="icon" class="location"></h3>
+                            </div>
+                            <div class="regi">
+                                <h2><a href="">Register&rarr;</a></h2>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="card1">
+
+                        <div class="img"><img src="images/basketball 1.png" alt="Basketball" class="sports"></div>
+                        <div class="lowbox">
+                        <div class="sname">
+                            <h1>Basketball (Men's)</h1>
+                        </div>
+                        <div>
+                            <p class="Date">3 November 2023</p>
+                        </div>
+                        <div class="Des1">
+                            <p>Team sport</p>
+                        </div>
+                        <div class="Des2">
+                            <p>Number of Team Member:12</p>
+                        </div>
+                        <div class="las">
+    
+                            <div class="loc">
+                                <h3>Locate<img src="images/locate.png" alt="icon" class="location"></h3>
+                            </div>
+                            <div class="regi">
+                                <h2><a href="">Register&rarr;</a></h2>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
                  </div>
                 </div>
             </div>
         </div>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+      el: document.querySelector('#main'),
+      smooth: true
+      });
+    </script>
     </body>
 </html>

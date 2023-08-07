@@ -1,3 +1,7 @@
+
+body{
+    overflow-x: hidden;
+}
 .header.two{
     height: 9vh;
     border: none;
@@ -122,11 +126,17 @@
 .card1 {
     margin-left: 7vw;
     width: 25vw;
-    height: 30vw;
+    height: 39.5vw;
     /* border: 1px solid black; */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.lowbox{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .card1 .sports {
     width: 25vw;
     height:35vh ;
@@ -146,7 +156,7 @@
     letter-spacing: 0em;
     text-align: left;
     padding: 2.2rem;
-    margin-top: 0.2vh;
+    
 
 
 }
@@ -167,6 +177,11 @@
    
 }
 
+.las{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .card1 p{
 
 margin-left: 2vw;
@@ -176,9 +191,8 @@ margin-left: 2vw;
 
 .card1 h3{
     margin-left: 2vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
-
 
 
 
