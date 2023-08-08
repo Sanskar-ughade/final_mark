@@ -1,6 +1,12 @@
+@font-face {
+    font-family: fontSatoshi;
+    src: url(fonts/Satoshi-Regular.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    /* font-family: fontSatoshi; */
 }
 
 
@@ -18,6 +24,8 @@ body{
     margin-right: -1vw;
     margin-top: -0.69vh;
     background-color: rgb(181, 255, 70);
+    font-family: fontSatoshi;
+    font-weight: 600;
 }
 .sports{
     width: 19vw;
@@ -70,7 +78,8 @@ body{
     color: whitesmoke;
     position: relative;
     left: 2vh;
-   
+    font-size: 23px;
+    font-family: fontSatoshi;
 }
 
 .basket{
@@ -153,6 +162,21 @@ body{
 .lowbox{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.lowbox > .sname > h1 {
+    font-family: fontSatoshi;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Des1 > p {
+    font-family: fontSatoshi;
+}
+
+.Des2 > p {
+    font-family: fontSatoshi;
+}
+
 .card1 .sports {
     width: 25vw;
     height:35vh ;
@@ -176,11 +200,11 @@ body{
 }
 
 .card1 .Date{
+    font-family: fontSatoshi;
     font-weight: 600;
     margin-left: 2vw;
-  
-   margin-bottom: 2vw;
-   margin-top: 1.1vw;
+    margin-bottom: 1.4vw;
+    margin-top: 1.1vw;
 }
 
 .card1 h2{
@@ -192,10 +216,23 @@ body{
 }
 
 .las{
+    margin-top: 1vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loc > h3 {
+    font-family: fontSatoshi;
+}
+
 .card1 p{
 
 margin-left: 2vw;
