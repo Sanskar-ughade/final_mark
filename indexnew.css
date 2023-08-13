@@ -130,7 +130,7 @@ body{
     transform: scale(1.10);
 }
 
-.basket:hover{
+.list div:hover{
    transform: scale(1.15);
    position: relative;
    left: 2vw;
@@ -163,7 +163,7 @@ body{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.lowbox > .sname > h1 {
+.lowbox > .name > h1 {
     font-family: fontSatoshi;
     font-weight: 600;
     font-size: 22px;
@@ -177,7 +177,7 @@ body{
     font-family: fontSatoshi;
 }
 
-.card1 .sports {
+.card1 .sportsimg {
     width: 25vw;
     height:35vh ;
     border: none;
