@@ -12,6 +12,7 @@
 
 body{
     overflow-x: hidden;
+    
 }
 .header.two{
     height: 9vh;
@@ -178,13 +179,15 @@ body{
 }
 
 .card1 .sportsimg {
-    width: 25vw;
-    height:35vh ;
+    width:  25vw;
+    /* height: 35vh ; */
+    height: 15rem;
     border: none;
    
     margin-left: .07vw;
     
 }
+
 .card1 h1 {
      
     background-color: #CFFF69;
@@ -195,7 +198,7 @@ body{
     line-height:8px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 2.2rem;
+    padding: 1.5rem;
 
 }
 
@@ -245,38 +248,98 @@ margin-left: 2vw;
     font-size: 1.2vw;
 }
 
+.women{
+        font-size: 1rem;
+        margin-top: 12px;
+}
 
 
 
-@media screen and (max-width: 1678px){
-    .cards div{
-        width: 23vw;
-    }
+.span{
+    background-color: #CFFF69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -10000;
+    padding: 1rem;
+    
 }
-@media screen and (max-width: 1395px){
-    .sports{
-        width: 25vw;
-    }
-    .cards{
-        flex-flow: column;
-        align-items: center;
-    }
-    .cards div{
-        height: 39vh;
-        margin-top: 2vh;
-        width: 30vw;
-    }
-    .input input{
-        width: 20vw;;
-    }
+
+.sportnameLEAD{
+    margin: 5vh 0vw 5vw 40vw;
+    font-size: 2.5rem;
+    font-family: Garamond;
+    font-style: italic;
+    font-weight: bolder
 }
-@media screen and (max-width: 1065px){
-    .cards div{
-        width:  40vw;
-    }
+
+.bars-men {
+    width: 80%;
+   display:flex;
+   flex-direction: column;
+   gap: 1rem;
+   
 }
-@media screen and (max-height: 850px){
-    .cards div{
-       display: none;
-    }
+
+.bars-men a{
+    background-color: #CFFF69;
+   padding: 2rem;
+   font-size: 1.4rem;
+   font-weight: 800;
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+   margin-left: 20vw;
+   border: 3px solid black;
+
+   
 }
+
+
+
+
+@media screen and (max-width: 800px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+   .maincard{
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+        }
+
+        .card1{
+            
+        }
+        .card1 .sportsimg{
+        width: 15rem;
+        height: 10rem;
+    
+        
+     }
+      .name h1{
+        padding: 1rem;
+      }
+      .regi{
+        font-size: .9rem;
+        text-decoration: none;
+      }
+     .sports{display: none;}
+
+
+
+      .loc h3{
+        font-size: .8rem;
+
+      }
+     
+    
+     }
+    
+    
+     
+
+  
